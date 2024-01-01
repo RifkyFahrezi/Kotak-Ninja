@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kotak Ninja</title>
+</head>
+
+<body>
+
+    <canvas id="c"></canvas>
+
+    <div class="hud">
+        <div class="hud__score">
+            <div class="score-lbl"></div>
+            <div class="cube-count-lbl"></div>
+        </div>
+        <div class="pause-btn">
+            <div></div>
+        </div>
+        <div class="slowmo">
+            <div class="slowmo__bar"></div>
+        </div>
+    </div>
+
+    <div class="menus">
+        <div class="menu menu--main">
+            <h1>KOTAK NINJA</h1>
+            <button type="button" class="play-normal-btn">GAS MAIN</button>
+            <button type="button" class="play-casual-btn">NORMAL MODE</button>
+            <div class="credits">Game By BoskiDeveloper</div>
+        </div>
+        <div class="menu menu--pause">
+            <h1>Mandeg Delat</h1>
+            <button type="button" class="resume-btn">Lanjut Dolanan</button>
+            <button type="button" class="menu-btn--pause">MENU UTAMA</button>
+        </div>
+        <div class="menu menu--score">
+            <h1>Wis Rampung</h1>
+            <h2>Skor e Sampeyan:</h2>
+            <div class="final-score-lbl"></div>
+            <div class="high-score-lbl"></div>
+            <button type="button" class="play-again-btn">Main Maning</button>
+            <button type="button" class="menu-btn--score">MENU UTAMA</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
